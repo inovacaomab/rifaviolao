@@ -60,9 +60,10 @@ section {
 }
 
 .image-container img {
-    max-width: 100%;
-    height: auto;
-    display: block; /* Garante que as imagens se comportem corretamente como blocos */
+    max-width: 100%; /* Redimensiona a imagem para ocupar no máximo 100% do contêiner pai */
+    height: auto; /* Mantém a proporção original da imagem */
+    cursor: pointer;
+    transition: transform 0.3s;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
