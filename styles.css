@@ -60,8 +60,7 @@ section {
 }
 
 .image-container img {
-    max-width: 100%; /* Redimensiona a imagem para ocupar no máximo 100% do contêiner pai */
-    height: auto; /* Mantém a proporção original da imagem */
+    max-width: 200px;
     cursor: pointer;
     transition: transform 0.3s;
     border-radius: 8px;
