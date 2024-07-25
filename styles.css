@@ -6,6 +6,19 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+/* Estilos para o botão flutuante do WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 999;
+}
+
 
 header {
     background-color: #4CAF50;
