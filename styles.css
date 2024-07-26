@@ -10,8 +10,8 @@ body {
 /* Estilos para o botão flutuante do WhatsApp */
 .whatsapp-button {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 40px;
     border-radius: 50%;
     padding: 10px;
     z-index: 999;
@@ -21,7 +21,7 @@ body {
 }
 .whatsapp-button img {
     width: 30px; /* Ajuste o tamanho conforme necessário */
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 header {
