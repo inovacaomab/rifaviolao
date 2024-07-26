@@ -6,12 +6,12 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+
 /* Estilos para o botão flutuante do WhatsApp */
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #25d366;
     border-radius: 50%;
     padding: 10px;
     z-index: 999;
@@ -21,9 +21,7 @@ body {
 }
 .whatsapp-button img {
     width: 30px; /* Ajuste o tamanho conforme necessário */
-    background-color: #25d366; /* Cor de fundo para o ícone */
     border-radius: 50%;
-    padding: 5px;
 }
 
 header {
